@@ -1,0 +1,342 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+       /*header start*/
+
+       .logo h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    
+}
+.sddm {
+    min-width: 414px;
+    padding: 11px 14px;
+    margin: 0px;
+    border-radius: 0;
+    border: none;
+}
+
+.sddm[data-bs-popper] {
+    top: -18px;
+    left: 39px;
+    margin-top: 0px;
+}
+
+.h_input {
+    padding: 5px;
+    width: 53%;
+    height: 85px;
+    border-radius: 0;
+    
+}
+.btn_input {
+    padding: 8px;
+    width: 47%;
+    height: 50px;
+    border-radius: 0;
+    
+    background: transparent;
+}
+
+/*header end*/
+
+
+
+/*slider start*/
+
+.c_slider h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 37px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.c_slider button {
+    width: 89px;
+    height: 39px;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #333333;
+}
+
+
+/*slider end*/
+
+/*service start*/
+
+
+/*service end*/
+
+/*about start*/
+.about {
+    padding-bottom: 80px;
+}
+
+.abt_img {
+    display: none;
+}
+
+
+/*about end */
+
+
+/*who s*/
+
+.pic_w {
+   
+    margin-left: 14px;
+    margin-bottom: 103px;
+    
+}
+
+
+/*who end*/
+
+     /*recent start  */
+
+.recent_menu a {
+    margin: 2px 11px;
+    padding: -2px 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8e8e8e;
+    text-decoration: none;
+    transition: 0.1s;
+    text-align: center;
+}
+
+.recent_text h2 {
+    padding-bottom: 27px;
+}
+
+     /*recent end*/
+
+     /*best*/
+
+     .vejal p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8e8e8e;
+    margin: 1px 14px;
+}
+  .price {
+    margin: 16px 46px;
+    width: 213px;
+    height: 332px;
+    border: 1px solid #8e8e8e;
+}
+
+.price h2 {
+    padding: 8px;
+    font-family: 'Lato', sans-serif;
+    font-size: 17pt;
+    font-weight: 700;
+    color: #333333;
+    position: absolute;
+    margin: -26px 16px;
+    background-color: white;
+}
+
+.price span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 26pt;
+    font-weight: 400;
+    color: #333333;
+}
+
+.best_button {
+    padding-left: 43px;
+    padding-top: 18px;
+}
+
+.best_button button {
+    height: 43px;
+    border: 1px solid black;
+    width: 114px;
+    border-radius: 0;
+    color: #333333;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+/*buy*/
+
+.buy_txt p {
+    padding-top: 16px;
+    margin-left: 27px;
+    /* margin: -6px; */
+}
+
+.last {
+    margin-right: 87px;
+    float: right;
+    padding-top: 12px;
+    padding-bottom: 4px;
+    
+}
+
+
+ }
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 768px) { 
+
+    /*header start*/
+    
+        .sddm[data-bs-popper] {
+    top: -21px;
+    left: 81px;
+    margin-top: 0px;
+}
+
+    /*header end*/
+
+    /*service start*/
+
+.service {
+    padding-bottom: 60px;
+}
+
+
+
+    /*service end*/
+
+/*about start*/
+
+.about {
+    padding-bottom: 80px;
+}
+
+.abt_txt h2 {
+    padding-bottom: 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.abt_txt p {
+    padding-bottom: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8e8e8e;
+    line-height: 23px;
+}
+
+.abt_img {
+    display: none;
+}
+
+
+
+/*about end*/
+
+.pic_w {
+    margin: 50px;
+   
+}
+/*who e*/
+
+
+
+/*recent*/
+.recent_menu a {
+    margin: 20px 30px;
+    padding: 0px 1px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8e8e8e;
+    text-decoration: none;
+    transition: 0.1s;
+    text-align: center;
+}
+
+.price {
+    margin: 15px;
+    width: 250px;
+    height: 420px;
+    border: 2px solid #8e8e8e;
+}
+
+/*buy*/
+
+.buy_txt p {
+    padding-top: 27px;
+    margin-left: -38px;
+    
+    display: inline-block;
+}
+
+.last {
+    margin-right: 12px;
+    float: right;
+    padding-left: -6px;
+    padding-top: 17px;
+}
+
+}
+
+
+
+
+
+
+/*why s*/
+
+/*why end*/
+
+/*who s*/
+
+/*best*/
+
+
+
+
+
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    /*recent start*/
+
+.recent_menu a {
+    margin: 0px 0px;
+    padding: 0px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8e8e8e;
+    text-decoration: none;
+    transition: 0.1s;
+    text-align: center;
+}
+
+    /*recent end*/
+
+.pic_w {
+    margin: 50px;
+    /* padding-bottom: 15px; */
+}
+/*who e*/
+
+
+
+ }
+
+ /*Extra large devices (Extra large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+
+ }
+ /*Extra Extra large devices (Extra Extra large desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+
+
+
+}
